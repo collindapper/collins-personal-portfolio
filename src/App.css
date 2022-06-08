@@ -1,38 +1,130 @@
-.App {
-  text-align: center;
+/* General Styling */
+body {
+  background-color: black;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.fontPrimary {
+  font-family: 'Archivo', sans-serif;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.fontSecondary {
+  font-family: 'Open Sans', sans-serif;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.colorPrimary {
+  color: #E18700;
+}
+
+.colorSecondary {
+  color: #ECD719;
+}
+
+/* Custom Buttons */
+.projectLink {
+	background-color:#e18700;
+	border-radius:11px;
+	display:inline-block;
+	cursor:pointer; 
+	color:white;
+	font-family:Georgia;
+	font-size:16px;
+	font-weight:bold;
+	padding:19px 76px;
+	text-decoration:none;
+}
+.projectLink:hover {
+	background-color:#525252;
+}
+.projectLink:active {
+	position:relative;
+	top:1px;
+}
+
+
+/* Navbar */
+.nav-link {
+  font-size: x-large;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+@media only screen and (min-width: 1405px) {
+  .nav-link:hover,
+  .nav-link:active {
+    color: #E18700;
+    transform: scale(1.10);
+  }
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+@media only screen and (max-width: 1405px) {
+  .nav-link:hover,
+  .nav-link:active {
+    color: #E18700;
   }
 }
+
+.custom-toggler.navbar-toggler {
+  border-color: white;
+}
+
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='white' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  
+}
+
+/* Landing Page */
+.updatesLink {
+  color: #525252;
+}
+
+.updatesLink:hover {
+  color: #E18700;
+  transform: scale(1.10);
+}
+
+/* Projects */
+@media only screen and (min-width: 1405px) {
+  .projectsImg {
+    height: 360px;
+    width: 360px;
+  }
+}
+
+@media only screen and (max-width: 1405px) {
+  .projectsImg {
+    max-height: 500px;
+    width: 100%;
+    overflow: hidden;
+  }
+}
+
+/* Education */
+.educationImg {
+  width: 360px;
+  height: 360px;
+}
+
+/* Experience */
+.experienceImg {
+  width: 360px;
+  height: 360px;
+}
+
+/* Footer */
+.footerText,
+.footerLink,
+.portfolioLink,
+.linkedinLink,
+.githubLink {
+  color: #525252;
+  text-decoration: none;
+}
+
+.footerLink:hover,
+.portfolioLink:hover,
+.linkedinLink:hover,
+.githubLink:hover {
+  color: #E18700;
+  text-decoration: underline;
+}
+
+

@@ -20,7 +20,8 @@ body {
 }
 
 /* Custom Buttons */
-.projectLink {
+.projectLink,
+.certificationLink {
 	background-color:#e18700;
 	border-radius:11px;
 	display:inline-block;
@@ -29,19 +30,26 @@ body {
 	font-family:Georgia;
 	font-size:16px;
 	font-weight:bold;
-	padding:19px 76px;
+	padding:10px 76px;
 	text-decoration:none;
 }
-.projectLink:hover {
+.projectLink:hover,
+.certificationLink:hover {
 	background-color:#525252;
 }
-.projectLink:active {
+.projectLink:active,
+.certificationLink:active {
 	position:relative;
 	top:1px;
 }
 
 
 /* Navbar */
+.logo {
+  height: 75px;
+  width: 100%;
+}
+
 .nav-link {
   font-size: x-large;
   color: white;
@@ -97,22 +105,29 @@ body {
   }
 }
 
-/* Education */
-.educationImg {
+/* Education and Experience */
+.educationImg,
+.experienceImg,
+.certificationImg {
   width: 360px;
   height: 360px;
 }
 
-/* Experience */
-.experienceImg {
-  width: 360px;
-  height: 360px;
+/* Contact Me */
+.contactLink {
+  color: #E18700;
+  text-decoration: none;
+}
+
+.contactLink:hover {
+  color: #E18700;
+  text-decoration: underline;
 }
 
 /* Footer */
 .footerText,
 .footerLink,
-.portfolioLink,
+.resumeLink,
 .linkedinLink,
 .githubLink {
   color: #525252;
@@ -120,7 +135,7 @@ body {
 }
 
 .footerLink:hover,
-.portfolioLink:hover,
+.resumeLink:hover,
 .linkedinLink:hover,
 .githubLink:hover {
   color: #E18700;

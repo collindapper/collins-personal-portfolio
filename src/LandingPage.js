@@ -14,7 +14,7 @@ class LandingPage extends React.Component {
       <div className="container">
       <div className="d-flex row justify-content-center align-items-center mt-xl-2 pt-xl-2 my-xl-auto py-xl-auto">
 
-        <div className=" col-11 col-xl-6 pe-4 mb-xl-0">
+        <div className=" col-11 col-xl-6 pe-4 mb-4 mb-xl-0">
           <h3 className="fontSecondary text-white text-end mb-0 pb-0">My name is,</h3>
           <h1 className="fontPrimary colorPrimary display-1 text-end mt-0 pt-0">Collin Dapper</h1>
           <br/>

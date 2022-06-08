@@ -15,13 +15,13 @@ class Experience extends React.Component {
       <div className="d-flex row mx-auto justify-content-center px-auto">
 
         <div className="col-12 col-xl-11">
-          <h1 className="experienceHeading display-3 fontPrimary colorSecondary px-xl-2 mb-5 mb-xl-0 text-center text-xl-start">Experience</h1>
 
           <div className="d-xxl-flex row experienceRow border-start my-4 rounded mt-xl-2 mx-auto">
-            <div className="d-none d-xxl-flex col-xxl-4 pt-2 ps-xl-4 my-auto currencyConverterProjectImg">
+          <h1 className="experienceHeading display-3 fontPrimary colorSecondary ps-4 text-start">Experience</h1>
+            <div className="d-none d-xxl-flex col-xxl-4 pt-2 ps-4 my-auto currencyConverterProjectImg">
              <img className="experienceImg" src="/images/Amazon.jpg" />
             </div>
-            <div className="col-10 col-xl-8 currencyConverterProject my-auto mx-xxl-auto ps-xl-4">
+            <div className="col-12 col-xxl-8 currencyConverterProject my-auto mx-xxl-auto ps-4">
               <h2 className="experiencHeading colorPrimary fontSecondary mb-4">Amazon.com - Manager I, Operations</h2>
               <h5 className="d-xl-flex text-white experienceDescription fontSecondary">
                 - Coach, manage, and develop a team of 200 Amazon associates<br/>
@@ -42,10 +42,10 @@ class Experience extends React.Component {
           </div>
 
           <div className="d-xxl-flex row educationRow border-start my-4 rounded mt-xl-2 mx-auto">
-            <div className="d-none d-xxl-flex col-xxl-4 pt-2 ps-xl-4 my-auto mathGameProjectImg">
+            <div className="d-none d-xxl-flex col-xxl-4 pt-2 ps-4 my-auto mathGameProjectImg">
              <img className="experienceImg" src="/images/Eagle Fitness.jpg" />
             </div>
-            <div className="col-10 col-xl-8 mathGameProject my-auto mx-xxl-auto ps-xl-4">
+            <div className="col-12 col-xxl-8 mathGameProject my-auto mx-xxl-auto ps-4">
               <h2 className="experiencHeading colorPrimary fontSecondary mb-4">Eagle Fitness - Membership Sales Specialist</h2>
               <h5 className="d-xl-flex text-white experienceDescription fontSecondary">
                 - Develop sales strategy to increase membership agreements.<br/>
@@ -60,10 +60,10 @@ class Experience extends React.Component {
           </div>
 
           <div className="d-xxl-flex row educationRow border-start my-4 rounded mt-xl-2 mx-auto">
-            <div className="d-none d-xxl-flex col-xl-4 pt-2 ps-xl-4 toDoListProjectImg">
+            <div className="d-none d-xxl-flex col-xl-4 pt-2 ps-4 toDoListProjectImg">
             <img className="experienceImg" src="/images/harrahs.jpg" />
             </div>
-            <div className="col-10 col-xl-8 toDoListProject my-auto mx-xxl-auto ps-xl-4">
+            <div className="col-12 col-xxl-8 toDoListProject my-auto mx-xxl-auto ps-4">
               <h2 className="experiencHeading colorPrimary fontSecondary mb-4">Caesars Entertinment, Inc - Sales Representative</h2>
               <h5 className="d-xl-flex text-white experienceDescription fontSecondary">
                 - Created a comfortable environment for guests to help aid them in the vacation experience.<br/>
@@ -76,10 +76,10 @@ class Experience extends React.Component {
           </div>
 
           <div className="d-xxl-flex row educationRow border-start my-4 rounded mt-xl-2 mx-auto">
-            <div className="d-none d-xxl-flex col-xl-4 pt-2 ps-xl-4 toDoListProjectImg">
+            <div className="d-none d-xxl-flex col-xl-4 pt-2 ps-4 toDoListProjectImg">
             <img className="experienceImg" src="/images/umigo.jpg" />
             </div>
-            <div className="col-10 col-xl-8 toDoListProject my-auto mx-xxl-auto ps-xl-4">
+            <div className="col-12 col-xxl-8 toDoListProject my-auto mx-xxl-auto ps-4">
               <h2 className="experiencHeading colorPrimary fontSecondary mb-4">Umigo Racing, Inc - Sales Representative</h2>
               <h5 className="d-xl-flex text-white experienceDescription fontSecondary">
                 - Built a relationship with the customer, talked about the process, company safety rules, and showed them the proper procedure when racing <br/>
@@ -92,10 +92,10 @@ class Experience extends React.Component {
           </div>
 
           <div className="d-xxl-flex row educationRow border-start my-4 rounded mt-xl-2 mx-auto">
-            <div className="d-none d-xxl-flex col-xl-4 pt-2 ps-xl-4 toDoListProjectImg">
+            <div className="d-none d-xxl-flex col-xl-4 pt-2 ps-4 toDoListProjectImg">
             <img className="experienceImg" src="/images/americas tire.jpg" />
             </div>
-            <div className="col-10 col-xl-8 toDoListProject my-auto mx-xxl-auto ps-xl-4">
+            <div className="col-12 col-xxl-8 toDoListProject my-auto mx-xxl-auto ps-4">
               <h2 className="experiencHeading colorPrimary fontSecondary mb-4">America's Tire, Inc - Tire Technician / Crew Chief</h2>
               <h5 className="d-xl-flex text-white experienceDescription fontSecondary">
                 - Fulfilled the needs of the customers through friendly communication, and a hassle-free process to get them on the road in a timely manner <br/>

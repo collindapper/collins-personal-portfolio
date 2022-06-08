@@ -18,33 +18,35 @@ function App() {
   return (
     <Router>
       <nav className="navbar navbar-expand-xxl bg-black py-5 sticky-top">
-      <NavLink className="navbar-brand d-xl-none ms-3" to="/"><h2 className="fontPrimary text-white"><strong>Collin Dapper</strong></h2></NavLink>
+      <NavLink className="navbar-brand d-xxl-none ms-4" to="/">
+        <img className="d-flex logo" src="/images/logo.png"></img>
+      </NavLink>
       <button className="navbar-toggler custom-toggler me-3 ms-auto " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown">
         <span className="navbar-toggler-icon"></span>
       </button>
 
-      <div className=" collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
+      <div className="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
         <ul className="navbar-nav mt-2 pb-4 border-bottom border-dark">
         <li className="nav-item fontSecondary ms-5">
             <NavLink className="nav-link d-flex align-items-center" to="/" activeStyle={{ color: 'white' }}><i className="fas fa-user me-1"></i>Home</NavLink>
           </li>
           <li className="nav-item fontSecondary ms-5">
-            <NavLink className="nav-link d-flex align-items-center" to="/about-me/" activeStyle={{ color: 'white' }}><i className="fas fa-address-card me-1"></i>About Me</NavLink>
+            <NavLink className="nav-link d-flex align-items-center" to="/about-me/" activeStyle={{ color: '#E18700' }}><i className="fas fa-address-card me-1"></i>About Me</NavLink>
           </li>
           <li className="nav-item fontSecondary ms-5">
-            <NavLink className="nav-link d-flex align-items-center" to="/projects/" activeStyle={{ color: 'white' }}><i className="fas fa-code me-1"></i>Projects</NavLink>
+            <NavLink className="nav-link d-flex align-items-center" to="/projects/" activeStyle={{ color: '#E18700' }}><i className="fas fa-code me-1"></i>Projects</NavLink>
           </li>
           <li className="nav-item fontSecondary ms-5">
-            <NavLink className="nav-link d-flex align-items-center" to="/education/" activeStyle={{ color: 'white' }}><i className="fas fa-graduation-cap me-1"></i>Education</NavLink>
+            <NavLink className="nav-link d-flex align-items-center" to="/education/" activeStyle={{ color: '#E18700' }}><i className="fas fa-graduation-cap me-1"></i>Education</NavLink>
           </li>
           <li className="nav-item fontSecondary ms-5">
-            <NavLink className="nav-link d-flex align-items-center" to="/experience/" activeStyle={{ color: 'white' }}><i className="fas fa-briefcase me-1"></i>Experience</NavLink>
+            <NavLink className="nav-link d-flex align-items-center" to="/experience/" activeStyle={{ color: '#E18700' }}><i className="fas fa-briefcase me-1"></i>Experience</NavLink>
           </li>
           <li className="nav-item fontSecondary ms-5">
-            <NavLink className="nav-link d-flex align-items-center" to="/certifications" activeStyle={{ color: 'white' }}><i className="fas fa-medal me-1"></i>Certifications</NavLink>
+            <NavLink className="nav-link d-flex align-items-center" to="/certifications" activeStyle={{ color: '#E18700' }}><i className="fas fa-medal me-1"></i>Certifications</NavLink>
           </li>
           <li className="nav-item fontSecondary ms-5">
-            <NavLink className="nav-link d-flex align-items-center" to="/contact-me/" activeStyle={{ color: 'white' }}><i className="fas fa-user-plus me-1"></i>Contact Me</NavLink>
+            <NavLink className="nav-link d-flex align-items-center" to="/contact-me/" activeStyle={{ color: '#E18700' }}><i className="fas fa-user-plus me-1"></i>Contact Me</NavLink>
           </li>
         </ul>
       </div>

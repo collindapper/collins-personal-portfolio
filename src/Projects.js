@@ -58,6 +58,7 @@ class Projects extends React.Component {
               <h5 className="projectDescription text-white fontSecondary">HTML | CSS | Bootstrap v5 | JavaScript | JQuery | Dynamic Website</h5>
               <br />
               <a className="d-block projectLink btn  shadow-lg fontSecondary" type="button" href="https://collins-10-second-math-game.netlify.app" target="_blank"><h5>Live Project</h5></a>
+              <a className="d-block projectLink btn shadow-lg fontSecondary mt-2" type="button" href="https://github.com/collindapper/collins-10-second-math-game" target="_blank"><h5>GitHub Repo</h5></a>
             </div>
           </div>
 
@@ -72,6 +73,7 @@ class Projects extends React.Component {
               <h5 className="projectDescription text-white fontSecondary">HTML | CSS | Bootstrap v5 | JavaScript | JQuery | AJAX | API</h5>
               <br />
               <a className="d-block projectLink btn  shadow-lg fontSecondary" type="button" href="https://collins-api-to-do-list.netlify.app/" target="_blank"><h5>Live Project</h5></a>
+              <a className="d-block projectLink btn shadow-lg fontSecondary mt-2" type="button" href="https://github.com/collindapper/collins-api-to-do-list" target="_blank"><h5>GitHub Repo</h5></a>
             </div>
           </div>
 
@@ -86,6 +88,7 @@ class Projects extends React.Component {
               <h5 className="projectDescription text-white fontSecondary">HTML | CSS | Bootstrap v5 | JavaScript | JQuery </h5>
               <br />
               <a className="d-block projectLink btn  shadow fontSecondary" type="button" href="https://collins-jquery-shopping-list.netlify.app/" target="_blank"><h5>Live Project</h5></a>
+              <a className="d-block projectLink btn shadow-lg fontSecondary mt-2" type="button" href="https://github.com/collindapper/collins-shopping-list" target="_blank"><h5>GitHub Repo</h5></a>
             </div>
           </div>
 
@@ -100,6 +103,7 @@ class Projects extends React.Component {
               <h5 className="projectDescription text-white fontSecondary">HTML | CSS | Bootstrap v5 | JavaScript | JQuery </h5>
               <br />
               <a className="d-block projectLink btn  shadow fontSecondary" type="button" href="https://collins-blackjack-game.netlify.app/" target="_blank"><h5>Live Project</h5></a>
+              <a className="d-block projectLink btn shadow-lg fontSecondary mt-2" type="button" href="https://github.com/collindapper/collins-blackjack-game" target="_blank"><h5>GitHub Repo</h5></a>
             </div>
           </div>
 
@@ -109,11 +113,12 @@ class Projects extends React.Component {
             </div>
             <div className="col-12 col-xl-8 shoppingListProject my-auto mx-xl-auto ps-4 mt-2 mt-xl-0">
               <h2 className="projectHeading colorPrimary fontSecondary">Rock Paper Scissors Game</h2>
-              <h5 className="d-none d-xl-flex text-white projectDescription fontSecondary"></h5>
+              <h5 className="d-none d-xl-flex text-white projectDescription fontSecondary">Can you beat the computer in a game of Rock, Paper, Scissors ?  Try this game here and play head-to-head or best of 3!</h5>
               <br />
               <h5 className="projectDescription text-white fontSecondary">HTML | CSS | Bootstrap v5 | JavaScript  </h5>
               <br />
               <a className="d-block projectLink btn  shadow fontSecondary" type="button" href="https://collins-rock-paper-scissors-game.netlify.app/" target="_blank"><h5>Live Project</h5></a>
+              <a className="d-block projectLink btn shadow-lg fontSecondary mt-2" type="button" href="https://github.com/collindapper/collins-rock-paper-scissors-game" target="_blank"><h5>GitHub Repo</h5></a>
             </div>
           </div>
 
@@ -123,7 +128,7 @@ class Projects extends React.Component {
             </div>
             <div className="col-12 col-xl-8 shoppingListProject my-auto mx-xl-auto ps-4 mt-2 mt-xl-0">
               <h2 className="projectHeading colorPrimary fontSecondary">Personal Portfolio 1st Edition</h2>
-              <h5 className="d-none d-xl-flex text-white projectDescription fontSecondary"></h5>
+              <h5 className="d-none d-xl-flex text-white projectDescription fontSecondary">Original design of my personal website.</h5>
               <br />
               <h5 className="projectDescription text-white fontSecondary">HTML | CSS | Bootstrap v5 | ReactJS </h5>
               <br />
@@ -137,7 +142,7 @@ class Projects extends React.Component {
             </div>
             <div className="col-12 col-xxl-8 shoppingListProject my-auto mx-xl-auto ps-4 mt-2 mt-xl-0">
               <h2 className="projectHeading colorPrimary fontSecondary">Airbnb News Webpage</h2>
-              <h5 className="d-none d-xl-flex text-white projectDescription fontSecondary"></h5>
+              <h5 className="d-none d-xl-flex text-white projectDescription fontSecondary">Personal adaptation of the Airbnb News Webpage.</h5>
               <br />
               <h5 className="projectDescription text-white fontSecondary">HTML | CSS | Bootstrap v5  </h5>
               <br />
@@ -151,7 +156,7 @@ class Projects extends React.Component {
             </div>
             <div className="col-12 col-xxl-8 shoppingListProject my-auto mx-xl-auto ps-4 mt-2 mt-xl-0">
               <h2 className="projectHeading colorPrimary fontSecondary">Airbnb Booking Webpage</h2>
-              <h5 className="d-none d-xl-flex text-white projectDescription fontSecondary"></h5>
+              <h5 className="d-none d-xl-flex text-white projectDescription fontSecondary">Personal adaptation of the Airbnb Booking Webpage.</h5>
               <br />
               <h5 className="projectDescription text-white fontSecondary">HTML | CSS | Bootstrap v4  </h5>
               <br />
@@ -165,7 +170,7 @@ class Projects extends React.Component {
             </div>
             <div className="col-12 col-xl-8 shoppingListProject my-auto mx--xl-auto ps-4 mt-2 mt-xl-0">
               <h2 className="projectHeading colorPrimary fontSecondary">Newsweek Webpage</h2>
-              <h5 className="d-none d-xl-flex text-white projectDescription fontSecondary"></h5>
+              <h5 className="d-none d-xl-flex text-white projectDescription fontSecondary">Personal adaptation of the Newsweek Webpage.</h5>
               <br />
               <h5 className="projectDescription text-white fontSecondary">HTML | CSS | Bootstrap v4  </h5>
               <br />
@@ -179,9 +184,9 @@ class Projects extends React.Component {
             </div>
             <div className="col-12 col-xl-8 shoppingListProject my-auto mx-xl-auto ps-4 mt-2 mt-xl-0">
               <h2 className="projectHeading colorPrimary fontSecondary">Apple Webpage</h2>
-              <h5 className="d-none d-xl-flex text-white projectDescription fontSecondary"></h5>
+              <h5 className="d-none d-xl-flex text-white projectDescription fontSecondary">Personal adaptation of the Apple Store Webpage.</h5>
               <br />
-              <h5 className="projectDescription text-white fontSecondary">HTML | CSS | Bootstrap v4  </h5>
+              <h5 className="projectDescription text-white fontSecondary">HTML | CSS | Bootstrap v4</h5>
               <br />
               <a className="d-block projectLink btn  shadow fontSecondary" type="button" href="https://collins-apple-clone.netlify.app/" target="_blank"><h5>Live Project</h5></a>
             </div>

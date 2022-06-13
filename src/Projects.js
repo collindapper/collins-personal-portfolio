@@ -133,6 +133,7 @@ class Projects extends React.Component {
               <h5 className="projectDescription text-white fontSecondary">HTML | CSS | Bootstrap v5 | ReactJS </h5>
               <br />
               <a className="d-block projectLink btn  shadow fontSecondary" type="button" href="https://collins-personal-portfolio.netlify.app/" target="_blank"><h5>Live Project</h5></a>
+              <a className="d-block projectLink btn shadow-lg fontSecondary mt-2" type="button" href="https://github.com/collindapper/collins-first-personal-portfolio" target="_blank"><h5>GitHub Repo</h5></a>
             </div>
           </div>
 

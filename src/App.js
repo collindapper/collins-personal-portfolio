@@ -17,11 +17,8 @@ const NotFound = () => {
 function App() {
   return (
     <Router>
-      <nav className="navbar navbar-expand-xxl bg-black py-5 sticky-top">
-      <NavLink className="navbar-brand d-xxl-none ms-4" to="/">
-        <img className="d-flex logo" src="/images/logo.png"></img>
-      </NavLink>
-      <button className="navbar-toggler custom-toggler me-3 ms-auto " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown">
+      <nav className="navbar navbar-expand-xxl bg-black py-3 sticky-top">
+      <button className="navbar-toggler custom-toggler ms-3 me-auto " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown">
         <span className="navbar-toggler-icon"></span>
       </button>
 

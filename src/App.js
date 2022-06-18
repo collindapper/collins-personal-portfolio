@@ -18,8 +18,8 @@ function App() {
   return (
     <Router>
       <nav className="navbar navbar-expand-xxl bg-black py-3 sticky-top">
-      <button className="hamburger__toggle  ms-3 me-auto d-xxl-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown">
-        <span className="hamburger__icon"></span>
+      <button className="hamburger-toggle  ms-3 me-auto d-xxl-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown">
+        <span className="hamburger-icon"></span>
       </button>
 
       <div className="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">

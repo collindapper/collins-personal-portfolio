@@ -98,7 +98,7 @@ body {
 }
 
 @media only screen and (max-width: 1405px) {
-  .hamburger__toggle{
+  .hamburger-toggle{
     display:block;
     position: relative;
     background-color: black;
@@ -108,9 +108,9 @@ body {
   }
 
   /* give the span element and related pseudo-elements the appearance of white lines */
-  .hamburger__icon,
-  .hamburger__icon::before,
-  .hamburger__icon::after {
+  .hamburger-icon,
+  .hamburger-icon::before,
+  .hamburger-icon::after {
     position: absolute;
     width: 30px; 
     height: 2px;
@@ -119,32 +119,32 @@ body {
   }
 
   /* center the span element in the middle of its containing button */
-  .hamburger__icon {
+  .hamburger-icon {
     top: calc(50% - 2px);
     left: calc(50% - 15px);
   }
 
   /* position the two pseudo-elements to the very left */
-  .hamburger__icon::before,
-  .hamburger__icon::after {
+  .hamburger-icon::before,
+  .hamburger-icon::after {
     content: "";
     left: 0;
   }
 
   /* this is the top dash of the hamburger */
-  .hamburger__icon::before {
+  .hamburger-icon::before {
     bottom: 8px;
   }
 
   /* this is the bottom dash of the hamburger */
-  .hamburger__icon::after {
+  .hamburger-icon::after {
     top: 8px;
   }
 
   /* HOVER STYLES ON THE BUTTON */
 
   /* rotate middle dash of hamburger */
-  .hamburger__toggle:hover .hamburger__icon {
+  .hamburger-toggle:hover .hamburger-icon {
     height: 3px;
     width: 45px;
     left: 5px;
@@ -154,7 +154,7 @@ body {
   }
 
   /* rotate bottom dash of hamburger counter clockwise */
-  .hamburger__toggle:hover .hamburger__icon::after {
+  .hamburger-toggle:hover .hamburger-icon::after {
     width: 45px;
     height: 3px;
     top: -1px;
@@ -163,13 +163,13 @@ body {
   }
 
   /* hide the top dash by scaling it to 0 */
-  .hamburger__toggle:hover .hamburger__icon::before {
+  .hamburger-toggle:hover .hamburger-icon::before {
     transform: scale(0);
   }
 
   /* TRANSITION */
   /* adjust duration to see it happen slower */
-  .hamburger__icon, .hamburger__icon::after {
+  .hamburger-icon, .hamburger-icon::after {
     transition: all 0.3s linear;
   }
 }

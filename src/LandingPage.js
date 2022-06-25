@@ -26,6 +26,8 @@ class LandingPage extends React.Component {
           <h3 className="fontSecondary text-white text-start mb-0 pb-0">Latest Updates:</h3>
             <h5 className="fontPrimary color-light text-start mt-2 ms-2">June 2022 -</h5>
 
+              <h5 className="fontPrimary color-light text-start ms-4"><Link className="updatesLink me-1 " to="/certifications/"><i className="fas fa-medal me-1"></i></Link>Received certification in Ruby Programming</h5>
+
               <h5 className="fontPrimary text-start ms-4"><a className="updatesLink me-1" href="https://www.linkedin.com/in/collin-dapper-a1b59a152/details/skills/" target="_blank"><i className="fab fa-linkedin me-1"></i></a>Endorsed for ReactJS and Front-End Development</h5>
 
               <h5 className="fontPrimary color-light text-start ms-4"><Link className="updatesLink me-1 " to="/certifications/"><i className="fas fa-medal me-1"></i></Link>Received certification in ReactJS Development</h5>

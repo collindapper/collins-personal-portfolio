@@ -148,6 +148,7 @@ class Projects extends React.Component {
               <h5 className="projectDescription text-white fontSecondary">HTML | CSS | Bootstrap v5  </h5>
               <br />
               <a className="d-block projectLink btn  shadow fontSecondary" type="button" href="https://collins-airbnb-news-clone.netlify.app/" target="_blank"><h5>Live Project</h5></a>
+              <a className="d-block projectLink btn shadow-lg fontSecondary mt-2" type="button" href="https://github.com/collindapper/collins-airbnb-news" target="_blank"><h5>GitHub Repo</h5></a>
             </div>
           </div>
 
@@ -162,6 +163,7 @@ class Projects extends React.Component {
               <h5 className="projectDescription text-white fontSecondary">HTML | CSS | Bootstrap v4  </h5>
               <br />
               <a className="d-block projectLink btn  shadow fontSecondary" type="button" href="https://collins-airbnb-clone.netlify.app/" target="_blank"><h5>Live Project</h5></a>
+              <a className="d-block projectLink btn shadow-lg fontSecondary mt-2" type="button" href="https://github.com/collindapper/collins-airbnb-booking" target="_blank"><h5>GitHub Repo</h5></a>
             </div>
           </div>
 
@@ -176,6 +178,7 @@ class Projects extends React.Component {
               <h5 className="projectDescription text-white fontSecondary">HTML | CSS | Bootstrap v4  </h5>
               <br />
               <a className="d-block projectLink btn shadow fontSecondary" type="button" href="https://collins-newsweek-clone.netlify.app/" target="_blank"><h5>Live Project</h5></a>
+              <a className="d-block projectLink btn shadow-lg fontSecondary mt-2" type="button" href="https://github.com/collindapper/collins-newsweek-website" target="_blank"><h5>GitHub Repo</h5></a>
             </div>
           </div>
 
@@ -190,6 +193,7 @@ class Projects extends React.Component {
               <h5 className="projectDescription text-white fontSecondary">HTML | CSS | Bootstrap v4</h5>
               <br />
               <a className="d-block projectLink btn  shadow fontSecondary" type="button" href="https://collins-apple-clone.netlify.app/" target="_blank"><h5>Live Project</h5></a>
+              <a className="d-block projectLink btn shadow-lg fontSecondary mt-2" type="button" href="https://github.com/collindapper/collins-apple-webpage" target="_blank"><h5>GitHub Repo</h5></a>
             </div>
           </div>
 
